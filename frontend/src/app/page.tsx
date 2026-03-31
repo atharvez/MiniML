@@ -1,4 +1,4 @@
-"use client"; // ✅ MUST BE FIRST LINE
+"use client"; 
 
 import { useState } from "react";
 import { uploadModel, predict } from "./api";
