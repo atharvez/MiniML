@@ -1,12 +1,12 @@
-﻿# MiniML ðŸ¤–
+# MiniML
 
 A lightweight machine learning platform with a React/TypeScript frontend, Python backend, and Docker orchestration.
 
 ## Architecture
 
 ```
-Frontend (React + TS) â”€â”€HTTPâ”€â”€ Backend (Python FastAPI)
-            â””â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ Docker Compose â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”˜
+Frontend (React + TS) -- HTTP -- Backend (Python FastAPI)
+            |________ Docker Compose ________|
 ```
 
 ## Tech Stack
@@ -32,11 +32,11 @@ docker-compose up --build
 
 ## Features
 
-- ðŸ‹ï¸ **Model Training** â€” Train models via UI
-- ðŸ“Š **Predictions** â€” Run inference on new data
-- ðŸ“ˆ **Visualizations** â€” Model performance metrics
-- ðŸ”§ **Hyperparameter Tuning** â€” Adjust parameters interactively
+- Model training -- train models via UI
+- Predictions -- run inference on new data
+- Visualizations -- model performance metrics
+- Hyperparameter tuning -- adjust parameters interactively
 
 ## License
 
-MIT Â© [Atharva Desai](https://github.com/atharvez)
+MIT (c) Atharva Desai
